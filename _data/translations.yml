@@ -1,4 +1,15 @@
+# Someone who actually speak Russian and Uzbek should review these machine translations
 relatedPosts:
   en: "Related Posts"
+  ru: "Похожие публикации"
+  uz: "Teng murojaatlar"
+
 differentLanguage:
   en: "This page is available in following languages"
+  ru: "Эта страница доступна на следующих языках"
+  uz: "Ushbu sahifa quyidagi tillarda mavjud"
+
+tocTitle:
+  en: "On this page"
+  ru: "На этой странице"
+  uz: "Ushbu sahifada"

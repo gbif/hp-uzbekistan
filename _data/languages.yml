@@ -1,3 +1,12 @@
 en:
   label: English
   icon:  # optional
+  archive_permalink: /posts/
+  
+ru:
+  label: Русский
+  archive_permalink: /ru/posts/
+
+uz:
+  label: o'zbek
+  archive_permalink: /uz/posts/

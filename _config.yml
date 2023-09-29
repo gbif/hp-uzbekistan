@@ -19,14 +19,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Template_site # the title of your site should go here
+title: GBIF.uz # the title of your site should go here
 email: your-email@example.com
 description: >- # this means to ignore newlines (until baseurl:)
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://template_site.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://uzbekistan.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yourname # if you have an account you want to link to. Else comment this line out
 github_username:  yourname # if you have an account you want to link to. Else comment this line out
 
@@ -61,9 +61,9 @@ algae:
   style:
     # square: false               # Should corners be square or rounded
     colors:
-      primary: "#fa5e97"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
-    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
+      primary: "#1fb53a"          # Primary color of your brand. Use HEX code. Used for buttons and links
+      links: "#0099b5"          # What color should links have. Use a HEX code. DEfault is primary color. 
+    coloredHeadlineLinks: true   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR
     # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
     # color: "tomato"             # What color should the navbar be?
@@ -106,3 +106,25 @@ defaults:
     values:
       layout: "post"
       permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
+  # Russian
+  - scope:
+      path: "ru/" # For anything in the "ru" folder the default is to set the lang frontMatter property to "ru".
+    values:
+      lang: ru
+  - scope:
+      path: "_posts/ru" # our subfolder in posts for russian translation of news items
+    values:
+      layout: "post"
+      permalink: "/ru/post/:year/:slug/"   # Use /es/post/yyyy/{filename}/ as permalink for all posts
+      lang: ru # And have the default language in that folder be russian
+  # Uzbek
+  - scope:
+      path: "uz/" 
+    values:
+      lang: uz
+  - scope:
+      path: "_posts/uz"
+    values:
+      layout: "post"
+      permalink: "/uz/post/:year/:slug/"
+      lang: uz 

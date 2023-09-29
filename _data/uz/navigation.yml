@@ -1,0 +1,26 @@
+- text: Biz haqimizda
+  href: /uz/about
+- text: Hodisalar
+  href: /uz/occurrence/search
+- text: Namuna sahifalar
+  menu:
+  - text: Oddiy (english)
+    href: /example-pages/simple
+  - text: Qiyin (english)
+    href: /example-pages/complex
+- text: Havolalar
+  menu:
+  - text: Asosiy mavzu namunasi
+    href: https://hp-base-theme.gbif-staging.org/
+  - text: Temaning foydalanuvchi saytlari
+    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
+  - text: "---"
+  - text: "Hujjatlar"
+  - text: Jekyll hujjatlari
+    href: https://jekyllrb.com/docs/pages/
+  - text: Markdown o'qitish
+    href: https://guides.github.com/features/mastering-markdown/
+  - text: YAML o'qitish
+    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+- text: Yangiliklar
+  href: /uz/posts/

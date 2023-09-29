@@ -1,0 +1,30 @@
+# Ссылки, перечисленные ниже, будут включены в навигационное меню вашего сайта (навигация вверху)
+
+- text: О сайте
+  href: /ru/about
+# - text: Наблюдения
+#   href: /ru/occurrence/search
+- text: Наблюдения
+  href: /ru/occurrence/search
+- text: Примерные страницы
+  menu: # Меню с выпадающим списком (только один уровень)
+  - text: Просто (english)
+    href: /example-pages/simple
+  - text: Сложно (english)
+    href: /example-pages/complex
+- text: Ссылки
+  menu: # Меню с выпадающим списком (только один уровень)
+  - text: Демонстрация базовой темы
+    href: https://hp-base-theme.gbif-staging.org/
+  - text: Другие сайты, использующие эту тему
+    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
+  - text: "---" # Разделитель для разделения блоков пунктов меню (не менее 3 "-")
+  - text: "Документация" # Заголовок для блока пунктов меню
+  - text: Документация по Jekyll
+    href: https://jekyllrb.com/docs/pages/
+  - text: Учебник по Markdown
+    href: https://guides.github.com/features/mastering-markdown/
+  - text: Учебник по YAML
+    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+- text: Новости
+  href: /ru/posts/
