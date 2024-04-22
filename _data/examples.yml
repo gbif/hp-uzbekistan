@@ -1,50 +1,25 @@
 couldBeAnyName:
-  title: Virginis socerque
+  title: BIODIVERSITY FOR ALL
   description: |
-    Forth beginning form dry thing. Form seed void likeness darkness light. Can’t created third upon spirit fruitful hath likeness their. Replenish saw female night they’re you blessed all greater cattle, grass god fifth you’re. Above wherein replenish face multiply male every. Own hath lights under creeping.
+    Discover Uzbekistan's vibrant plant life! Our unique biodiversity includes over 4,500 native plant species, thriving across deserts, mountains, and valleys. Explore the rich flora that colors our landscape and sustains local ecosystems.
   features:
-    - title: Abundantly light years # required
+    - title: About the Uzbek GBIF Node # required
       description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
+        Welcome to the Uzbek GBIF node—your gateway to Uzbekistan's biodiversity data. Here, researchers, policymakers, and the public can access detailed records of our nation's biological treasures. Join us in exploring and preserving Uzbekistan's natural heritage.
       href: /about
       # img required
-      background: /assets/images/placeholders/800.png
-      imageLicense: None for this image, but normally you would provide one here
+      background: /assets/images/placeholders/800.jpg
+      imageLicense: No license 
       # categories: [drawings] # optional
-    - title: Fly moving land # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/placeholders/800.png
-      imageLicense: None for this image, but normally you would provide one here
-    - title: Fruitful replenish # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/placeholders/800.png
-      imageLicense: None for this image, but normally you would provide one here
-    - title: Land man dry # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/placeholders/800.png
-      imageLicense: None for this image, but normally you would provide one here
-    - title: Abundantly light years # required
-      description: |      # required
-        Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-      href: /about
-      background: /assets/images/placeholders/800.png
-      imageLicense: None for this image, but normally you would provide one here
-
 herbariumImageExample:
   reverse: false
-  title: "Likeness darkness light"
+  title: "Welcome to the Uzbek GBIF node."
   description: |      # required
-    Forth beginning form dry thing. Form seed void likeness darkness light. Can't created third upon spirit fruitful hath likeness their. Replenish saw female night they're you blessed all greater cattle, grass god fifth you're. Above wherein replenish face multiply male every. Own hath lights under creeping.
+    Your gateway to Uzbekistan's biodiversity data. Here, researchers, policymakers, and the public can access detailed records of our nation's biological treasures. Join us in exploring and preserving Uzbekistan's natural heritage.
   # img required
-  background: /assets/images/placeholders/800.png
+  background: /assets/images/placeholders/800.jpg
   imageLicense: |
-    *Polyptychodon* Owen, 1841 collected in United Kingdom of Great Britain and Northern Ireland. [See full record](/specimen/search?entity=1057252794&view=TABLE) (licensed under http://creativecommons.org/licenses/by/4.0/)
+    No license
   href: /about
   cta:
   - text: Download report
